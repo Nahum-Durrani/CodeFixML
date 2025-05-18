@@ -45,8 +45,6 @@
 
 ---
 
----
-
 ## Installation
 
 1. Clone the Repository:
@@ -113,26 +111,6 @@ result.extend([element for row in arr for element in row])
 ### 4. **Performance Profiling Complexity**
 - **Issue**: Profiling runtime and memory usage across large codebases can be resource-intensive.
 - **Solution**: Leveraged lightweight C modules for precise profiling, integrated seamlessly with Python tools.
-
----
-
-## Contributions
-Contributions are welcome! Follow these steps:
-
-1. Fork the Repository.
-2. Create a Feature Branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit Your Changes:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push the Branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a Pull Request.
 
 ---
 
