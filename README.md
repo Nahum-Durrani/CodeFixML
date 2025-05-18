@@ -1,43 +1,49 @@
-# RefineML: Dynamic Code Optimization Platform
+# CodeFixML: Machine Learning-Powered Code Optimization
 
 ## Overview
-RefineML is an advanced AI-powered tool designed to analyze source code and suggest improvements for readability, efficiency, and maintainability. Leveraging cutting-edge machine learning models, optimization algorithms, and rule-based logic, RefineML intelligently refactors code for popular programming languages like Python and C. The platform enhances coding practices by providing actionable recommendations tailored to improve performance and clarity.
+**CodeFixML** is an AI-powered tool that analyzes source code and suggests improvements for readability, efficiency, and maintainability. Using a combination of Deep Q-Learning (DQL), hardcoded logic, and performance profiling, CodeFixML intelligently refactors code in Python and C. The platform enhances code quality by providing actionable recommendations to improve clarity and execution speed.
 
 ---
 
 ## Features
 
 ### 1. **Code Analysis**
-- Parses source code to identify inefficiencies, poor readability, and suboptimal patterns.
-- Highlights issues such as nested loops, redundant logic, and inconsistent naming conventions.
+- Parses code to detect inefficiencies, deeply nested loops, and redundant logic.
+- Highlights common performance pitfalls and opportunities for optimization.
 
 ### 2. **Machine Learning-Powered Optimization**
-- Utilizes TensorFlow, Keras, Theano, and PyTorch to:
-  - Detect inefficient code patterns.
-  - Suggest alternative implementations for improved performance.
+- Utilizes TensorFlow and Keras to:
+  - Learn from code structure patterns.
+  - Apply optimization strategies based on Deep Q-Learning.
+  - Recommend smarter implementations for enhanced performance.
 
 ### 3. **Performance Benchmarking**
-- Integrates C modules to evaluate the runtime performance of original versus refactored code, ensuring measurable improvements.
+- Integrates C modules to benchmark runtime performance before and after refactoring.
+- Outputs quantifiable improvements in execution time.
 
-### 4. **Code Optimization Suggestions**
-- Refactors code by:
-  - Replacing suboptimal data structures (e.g., lists with dictionaries for faster lookups).
-  - Enforcing standardized formatting and naming conventions (e.g., PEP 8 for Python).
+### 4. **Refactoring Suggestions**
+- Transforms code by:
+  - Using list comprehensions for compact logic.
+  - Replacing inefficient string operations with `join()`.
+  - Substituting manual summation with Python’s `sum()`.
+  - Using sets to eliminate duplicates efficiently.
 
-### 5. **SQL Integration**
-- Stores user-submitted code snippets and their optimized versions for future reference and learning.
+### 5. **Clean Code Output**
+- Applies spacing normalization, comment removal, and standardized formatting for improved maintainability.
 
 ---
 
 ## Technology Stack
 
 ### **Programming Languages**
-- **Python**: Primary language for orchestration and code analysis.
-- **C**: For performance-critical tasks and runtime benchmarking.
+- **Python**: Used for ML pipeline, code parsing, and orchestration.
+- **C**: Used for lightweight, high-performance benchmarking modules.
 
 ### **Frameworks and Libraries**
-- TensorFlow, Keras, Theano, PyTorch: For building and training machine learning models.
-- SQL: To store and manage user-submitted code snippets and logs.
+- **TensorFlow**, **Keras**: For building and training the reinforcement learning model.
+- **NumPy**, **Regex**, **ctypes**: For processing and low-level interactions.
+
+---
 
 ---
 
@@ -146,5 +152,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For any questions or suggestions, feel free to reach out:
-- **Email**: aathushankugendran@gmail.com
-- **GitHub**: [aathushankugendran](https://github.com/aathushankugendran)
+- **Email**: nahumdurrani@gmail.com
+- **GitHub**: [nahum-durrani](https://github.com/Nahum-Durrani)
