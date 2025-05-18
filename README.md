@@ -114,11 +114,6 @@ result.extend([element for row in arr for element in row])
 
 ---
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
----
-
 ## Future Enhancements
 
 - Add support for additional languages (e.g., Java, JavaScript).
