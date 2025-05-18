@@ -12,7 +12,7 @@
 - Highlights common performance pitfalls and opportunities for optimization.
 
 ### 2. **Machine Learning-Powered Optimization**
-- Utilizes TensorFlow and Keras to:
+- Utilizes TensorFlow, Keras, Theano, and PyTorch:
   - Learn from code structure patterns.
   - Apply optimization strategies based on Deep Q-Learning.
   - Recommend smarter implementations for enhanced performance.
