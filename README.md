@@ -49,11 +49,11 @@
 
 1. Clone the Repository:
    ```bash
-   git clone https://github.com/yourusername/refineml.git
+   git clone https://github.com/yourusername/codefixml.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd refineml
+   cd codefixml
    ```
 3. Install Dependencies:
    ```bash
@@ -74,7 +74,7 @@
 ### CLI Tool
 1. Run the tool:
    ```bash
-   python refactorer.py --input <path_to_code_file>
+   python refactorer.py --input path/to/your_code.py --output optimized_code.py --language Python
    ```
 2. Options:
    - `--input`: Path to the code file to analyze.
